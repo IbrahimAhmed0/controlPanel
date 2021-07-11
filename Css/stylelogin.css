@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+a{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#hero{
+    position: relative;
+}
+#hero video{
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+#hero .content{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo{
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+.link{
+    float: right;
+}
+a .btn{
+    color: #fff;
+    background: #021130;
+    border: none;
+    padding: 12px 58px;
+    margin-top: 50px;
+    outline: none;
+    text-transform: capitalize;
+    font-size: .9em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all .7s;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    background-color: #165dee;
+    color: #fff;
+}
+.whole-card{
+    color: #fff;
+    background: transparent;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0);
+    width: 80%;
+}
+.form-group{
+    position: relative;
+}
+.icon{
+    color: #021130;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    padding: 0px 8px;
+}
+.iconm{
+    color: white;
+    font-size: 40px;   
+}
+.divspan{
+    margin:auto;
+    width: 50%;
+    margin-bottom: 5px;
+}
